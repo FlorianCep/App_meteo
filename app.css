@@ -1,0 +1,62 @@
+.clear {
+    background-image: url(https://t1.ldh.be/yIFe_v7sMAsUZ2O_v6IBfhNFTPA=/0x0:2560x1280/1920x960/5e785749d8ad582f31e73e09.jpg);
+}
+
+.clouds {
+    background-image: url(https://t2.ldh.be/upHtFg_ssq1JH3Vtt66AcpI1yzo=/0x0:2560x1280/1920x960/5f83e31c7b50a641f643618a.jpg);
+}
+
+.rain {
+    background-image: url(https://www.teahub.io/photos/full/13-136308_sky-storm-nature-weather-rain-clouds-best-desktop.jpg);
+}
+
+.snow {
+    background-image: url(https://wallpaperaccess.com/full/1862302.jpg);
+}
+
+
+body {
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+    
+h1 {
+    font-size: 3em;
+}
+
+i.wi {
+    font-size: 5em;
+    line-height: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.tooltip {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 47%;
+    color: #fff;
+    background-color: #222;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+    transition: opacity .3s, top .5s;
+}
+
+h1:hover .tooltip {
+    top: 27%;
+    opacity: 1;
+}
